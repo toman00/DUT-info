@@ -1,0 +1,24 @@
+Quel mot-clé représente la réalisation d'une interface ?
+-extends
+-implements
+-throws
+Quel type primitif est stocké sur 16 bits ?
+-char
+-byte
+-float
+Quel qualificatif représente un membre de classe ?
+-final
+-protected
+-static
+Vers quel type primitif peut-on convertir implicitement un long ?
+-float
+-boolean
+-int
+Quel mot-clé qualifie une classe qui ne définit pas complètement ses méthodes ?
+-private
+-static
+-abstract
+Quelle peut être la classe apparente d'un objet encapsulant la valeur 0.1 ?
+-Byte
+-Number
+-Short
