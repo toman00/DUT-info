@@ -1,0 +1,39 @@
+tcpdump -> Vision du traffic réseau basique
+tshark -> idem.
+Pipeline pour stocker dans un fichier le traffic + tee :
+ex: tcpdump/tshark | tee <file>
+
+
+Filtre les commandes tcpdump/tshark
+
+
+
+1.
+ip address show
+ip a
+
+2.
+ip a show dev lo
+3.
+ip link show
+ip l
+la valeur de mtu pour la plupart est de 1500
+l'interface de lo est 65536
+4.
+ip l show dev enp5s0
+5.
+ip neigh
+ip n
+6.
+ip -r n
+adresse d'iluvatar : 24:6e:96:13:28:b4
+7.
+ip r
+la passerelle est : gatekeeper.arda.
+
+II. 1.
+ping -c 1 salle223-01.arda
+
+3.
+tcpdump -e
+4.

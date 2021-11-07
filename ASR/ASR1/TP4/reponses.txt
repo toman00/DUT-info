@@ -1,0 +1,11 @@
+1.cd APL/TP4
+cp /export/documents/is1+2/asr/2018-2019/globpattern.tar
+tar -xf globpattern.tar
+ 1. ls GLOB/gLob/*[A-Z]
+ 2. ls GLOB/*[A-Z]*
+ 3. ls GLOB/?[0-9]* GLOB/gLob/?[0-9]*
+ 4. ls GLOB/*[0-9][0-9]*
+
+ shopt : change le comportement du bash
+ nullglob : ne renvoie d'erreur de chemin à l'entreée de la commande, il passe outre.w
+

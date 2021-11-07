@@ -1,0 +1,22 @@
+Les biologistes sont des gens étranges pour lesquels les string n'ont que 4 lettres : A,C,G ou T.
+Ils ne connaissent pas les String, ils parlent d'ADN.
+
+
+
+
+        +----------+
+        | Brin     |
+        |          | _____ next __> autre Brin
+        |          |
+        +----+-----+
+             |
+             | val
+            \|/
+        +----------+
+        | Base     |
+        |    A     |
+        |          |
+        +----+-----+
+
+
+Le but de ce TP est d'arriver à implanter et comprendre l'intérêt de séparer la navigation de la partir structuration.

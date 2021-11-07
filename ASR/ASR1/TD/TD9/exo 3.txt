@@ -1,0 +1,21 @@
+fd => pointeur sur le fichier some.dat
+n=
+=>Stockage en hexa
+x=0x0000
+y=0x8000000000000000 (en big endian) mais hexdump représentation par défaut en little endian
+
+
+long => 64 bits, soit 8 octets, 16 chiffres hexa
+
+
+
+some.dat
+x
+0000000000000000000000
+
+
+
+s=0xffffffffffffffff
+
+
+0xffffffffffffffff
